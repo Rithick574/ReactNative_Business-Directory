@@ -1,8 +1,8 @@
 import { View, Image, TouchableOpacity, Text, StyleSheet } from "react-native";
 import React from "react";
 import * as WebBrowser from 'expo-web-browser'
-import { Colors } from "@/constants/Colors";
-import {useWarmUpBrowser} from '@/hooks/useWarmUpBrowser'
+import { Colors } from "../constants/Colors";
+import {useWarmUpBrowser} from '../hooks/useWarmUpBrowser'
 import { useOAuth } from "@clerk/clerk-expo";
 
 WebBrowser.maybeCompleteAuthSession();
